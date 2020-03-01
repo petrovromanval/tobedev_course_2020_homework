@@ -52,8 +52,6 @@ const main = async () => {
         await deleteContact();
     } else if (command === 'find') {
         await findContact();
-    } else if (command === 'circle') {
-        await calculateCircleArea();
     } else {
         console.log('Неизвестная команда');
     }
